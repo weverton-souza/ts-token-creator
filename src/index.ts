@@ -1,1 +1,1 @@
-export * from './creator/token-creator';
+export * from './token-creator/token-creator';

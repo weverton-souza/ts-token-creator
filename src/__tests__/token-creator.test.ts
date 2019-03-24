@@ -1,4 +1,4 @@
-import { TokenCreator } from '../creator/token-creator';
+import { TokenCreator } from '../token-creator/token-creator';
 
 test('My token', function() {
   var token = new TokenCreator();
