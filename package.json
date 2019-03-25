@@ -1,13 +1,13 @@
 {
   "name": "ts-token-creator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JWT Token Creator",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node ./lib/index.ts",
-    "prod": "node dist/index.js",
+    "dev": "ts-node ./src/index.ts",
+    "prod": "node ./dist/index.js",
     "test": "jest --config jestconfig.json",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
