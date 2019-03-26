@@ -21,8 +21,8 @@ export class MyClass {
           "typ": "JWT",
           "alg": "HS256"
       },
-      body: {
-         "sub": "1234567890",
+      body: { // The content of body is optional.
+        "sub": "1234567890",
         "name": "John Doe",
         "iat": 1516239022
        },
