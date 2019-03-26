@@ -1,6 +1,6 @@
 {
   "name": "ts-token-creator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JWT Token Creator",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
