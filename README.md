@@ -1,4 +1,4 @@
-# ts-token-creator
+# Token Creator
 
 Needs lots of work...
 
