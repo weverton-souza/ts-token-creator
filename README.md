@@ -13,7 +13,7 @@ app.module.ts
 ```js
 ...
 providers: [
-	TokenCreator,
+  TokenCreator,
 ]
 ...
 ```
