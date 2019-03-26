@@ -9,6 +9,15 @@ Needs lots of work...
 ```
 
 # Example Code
+app.module.ts
+```js
+...
+providers: [
+	TokenCreator,
+]
+...
+```
+Your class.
 ```js
 import { TokenCreator } from 'ts-token-creator'
 
@@ -18,8 +27,8 @@ export class MyClass {
   
   tokenConfig = {
      header: {
-          "typ": "JWT",
-          "alg": "HS256"
+        "alg": "HS256",
+        "typ": "JWT"
       },
       body: { // The content of body is optional.
         "sub": "1234567890",
