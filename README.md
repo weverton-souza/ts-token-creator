@@ -2,6 +2,12 @@
 
 Needs lots of work...
 
+# Installing
+
+```sh
+# npm install ts-token-creator
+```
+
 # Example Code
 ```js
 import { TokenCreator } from 'ts-token-creator'
